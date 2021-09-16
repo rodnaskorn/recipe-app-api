@@ -22,7 +22,7 @@ services:
 
   db:
     image: postgres:10-alpine
-    hostname: db
+    
     environment:
       - POSTGRES_DB=app
       - POSTGRES_USER=postgres
